@@ -17,7 +17,6 @@
   color: white;
   font-size: 30px;
   font-weight: 1000;
-  mix-blend-mode: difference;
 }
 .logo:active {
   color: aliceblue;
@@ -85,9 +84,13 @@ h1 {
   width: 2px;
   height: 55px;
   background-color: #371748;
-  margin: auto;
-  margin-top: 16px;
+  margin: 13;
+  margin-top: 3px;
   border-radius: 7px;
+}
+.photo-Malito {
+  width: 32;
+  margin-top: 3px;
 }
 .block-main-moon {
   height: 100%;
@@ -99,6 +102,7 @@ h1 {
   width: 50%;
   height: 100%;
   position: relative;
+  margin-top: 200px;
 }
 .block-logo {
   padding-left: 10%;
@@ -117,7 +121,7 @@ h1 {
   margin-top: 6px;
 }
 button {
-  background-color: #371748;
+  background-color: black;
   border-radius: 21px;
   outline: 0;
   padding: 12px 23px 12px 23px;
@@ -140,4 +144,20 @@ button {
   right: 0;
   max-width: 60%;
   height: 60%;
+}
+.advantages {
+  font-family: cursive;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+}
+.block-adventages {
+  width: 33%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30%;
 }
